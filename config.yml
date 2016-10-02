@@ -1,0 +1,92 @@
+
+
+zones:
+  - kitchen
+  - living
+  - master_bed
+  - master_bath
+  - guest_bed
+  - guest_bath
+  - dining
+  - bar
+  - office
+  - laundry
+
+lights:
+
+# kitchen
+  - name: kitchen_studio_0
+    description: studio light bay above stove
+    zone: kitchen
+    
+  - name: kitchen_studio_1
+    descripton: studio light bay above sink
+    zone: kitchen
+    
+  - name: kitchen_cabinet_0
+    description: under-cabinet lighting
+    zone: kitchen
+    
+  - name: kitchen_hanging_0
+    description: hanging lights above breakfast bar
+    zone: kitchen
+    
+# living room
+  - name: living_studio_0
+    description: leftmost studio light bay near steps
+    zone: living
+
+  - name: living_studio_1
+    description: center studio light above couch
+    zone: living
+    
+  - name: living_studio_2
+    description: rightmost studio light bay near tv
+    zone: living
+    
+  - name: living_wall_0
+    description: streetlamp-style lights on brick wall
+    zone: living
+    
+# master bedroom
+  - name: master_studio_0
+    description: studio light bay
+    zone: master_bed
+  
+  - name: master_wall_0
+    description: streetlamp-style lights on brick wall
+    zone: master_bed
+    
+# master bathroom
+  - name: masterbath_studio_0
+    description: studio light bay above mirror
+    zone: master_bath
+    
+# guest bedroom
+  - name: guest_studio_0
+    description: leftmost studio light bay near entrance
+    zone: guest_bed
+    
+  - name: guest_studio_1
+    description: center studio light bay above bed
+    zone: guest_bed
+    
+  - name: guest_wall_0
+    description: streetlamp-style lights on brick wall
+    zone: guest_bed
+    
+# guest bathroom
+  - name: guestbath_studio_0
+    description: studio light bay above mirror
+    zone: guest_bath
+    
+  - name: guestbath_ceiling_0
+    description: ceiling fan light
+    zone: guest_bath
+    
+# laundry room
+  - name: laundry_0
+    description: fluorescent light on wall
+    zone: laundry
+    
+# 
